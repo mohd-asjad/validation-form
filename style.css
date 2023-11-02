@@ -1,4 +1,94 @@
-*{
-    background-color: aliceblue;
-    display: block;
-}
+        /* *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins', sans-serif;
+        } */
+
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #6da7e4;
+        }
+        h1{
+            text-align: center;
+            color: #fff;
+            text-decoration: darkcyan;
+            word-spacing: 1px;
+        }
+        h6{
+            text-align: center;
+            color: #ccc;
+
+        }
+        a{
+            color: rgb(86, 84, 84);
+            text-decoration: none;
+        }
+        .form-container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            /* width:calc(100vw-65vw); */
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            font-weight: normal;
+            /* font-family: 'Courier New', Courier, monospace; */
+            font-family: 'serif', Arial, sans-serif;
+
+        }
+        select, input[type="text"], input[type="email"], input[type="tel"] {
+            width: 80%;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input:hover{
+
+            background-color: #dbe8f6;
+
+            
+        }
+        .gender-checkbox {
+            display: flex;
+            align-items: center;
+        }
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        .btn-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover{
+
+            background-color:#3f444a;
+            
+        }
+        span{
+            color: red;
+        }
+        #message{
+
+            align-items: center;
+            text-align: center;
+            font-size: 12px;
+            color: red;
+        }
+        
